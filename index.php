@@ -51,10 +51,10 @@
           </div>
 
           <div class="menu-icon ion-navicon"></div>
-          <!--
-          <div class="arrowholder">
+          
+          <!-- <div class="arrowholder">
             <h3><i class="ion-chevron-down"></i></h3>
-          </div>--> <!--TODO: mozda ubaciti i ovu strelicu dole-->
+          </div> -->
 
           </div>
         </div>
@@ -63,35 +63,7 @@
         <div class="frameHolder">
           <div class="frame" id="frame2">
 
-            <nav class="cl-effect-2">
-              <a href="#" data-hover="Dive in"><span>Dive in</span></a>
-            </nav>
-
-            <div class="parallaxdotholder layer" data-depth="0.25">
-              <div class="dot1 hvr-sweep-to-top " >
-                <div class="text"><b>ABOUT</b></div>
-              </div>
-            </div>
-
-            <div class="parallaxdotholder layer" data-depth="0.20">
-              <div class="dot2 hvr-sweep-to-top">
-                <div class="text"><b>SKILLS</b></div>
-              </div>
-            </div>
-
-            <div class="parallaxdotholder layer" data-depth="0.30">
-              <div class="dot3 hvr-sweep-to-top">
-                <div class="text"><b>ABOUT</b></div>
-              </div>
-            </div>
-
-            <div class="parallaxdotholder layer" data-depth="0.50">
-              <div class="dot4 hvr-sweep-to-top">
-                <div class="text"><b>ABOUT</b></div>
-              </div>
-            </div>
-
-
+            
 
           </div>
         </div>
@@ -99,30 +71,10 @@
       <section>
         <div class="frameHolder">
           <div class="frame">
-            <div class="flexbox">
-            <div class="container-fluid projectcontainer">
-              <div class="col-md-3">
-                <div class="picturebox">
-                  <img src="img/namespace.jpg" alt="">
-                </div>
-              </div>
-                <div class="col-md-3">
-                  <div class="picturebox">
-                    <img src="img/devlib.png" alt="">
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="picturebox">
-                    <img src="img/devlib.png" alt="">
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="picturebox">
-                    <img src="img/devlib.png" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
+
+
+
+
           </div>
         </div>
       </section>
@@ -135,7 +87,6 @@
     <script src="js/app.js"></script>
     <script src="js/typed.min.js"></script>
     <script src="js/interaction.js"></script>
-    <script src="js/parallax.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
   </body>
 </html>
