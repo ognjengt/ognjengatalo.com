@@ -274,6 +274,23 @@
   -webkit-transform: scaleY(1);
   transform: scaleY(1); }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 30%, 0); }
+  to {
+    opacity: 1;
+    transform: none; } }
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both; }
+
+.animated.infinite {
+  animation-iteration-count: infinite; }
+
+.fadeInUp {
+  animation-name: fadeInUp; }
+
 * {
   font-family: "Raleway", sans-serif; }
 
@@ -335,7 +352,11 @@ a:active, a:visited {
   text-align: center;
   position: relative; }
 
+.brief {
+  opacity: 0; }
+
 .hero-btn {
+  display: none;
   position: absolute;
   bottom: -50%;
   right: 50%;
@@ -357,6 +378,7 @@ a:active, a:visited {
   font-size: 1.4em; }
 
 .menu-icon {
+  opacity: 0;
   position: absolute;
   top: 0;
   right: 20px;
@@ -365,7 +387,7 @@ a:active, a:visited {
   transition: 0.2s ease; }
 
 .menu-icon:hover {
-  opacity: 0.7; }
+  opacity: 0.5 !important; }
 
 .hero-info {
   margin-left: 100px;
@@ -376,9 +398,18 @@ a:active, a:visited {
     .hero-info ul li {
       padding: 7px;
       font-size: 1.7em;
-      margin-top: 10px;
+      margin-top: 11px;
       border: 2px solid #262DC1;
       width: 50%; }
+
+.firstPop {
+  opacity: 0; }
+
+.secondPop {
+  opacity: 0; }
+
+.thirdPop {
+  opacity: 0; }
 
 .arrowholder {
   position: absolute;

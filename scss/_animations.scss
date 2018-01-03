@@ -8,7 +8,7 @@
   100%{ border-color: $mainblue;}
 }
 @-moz-keyframes frameFadeIn{
-  0% { border-color: #fff; }
+  0% { border-color: #fff; }  
   100%{ border-color: $mainblue;}
 }
 //animation for brief fadeUp
@@ -198,4 +198,26 @@
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
 }
-//rollback 3d buttons
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 30%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}

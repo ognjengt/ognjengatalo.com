@@ -16,8 +16,8 @@ function writeName() {
   setTimeout(function(){
     $(function(){
     $(".typeName").typed({
-      strings: ["Ognjen ^100 Gatalo"],
-      typeSpeed: 60,
+      strings: ["Ognjen ^50 Gatalo"],
+      typeSpeed: 50,
       showCursor: true,
       cursorChar: "|",
       callback: writeTitle
@@ -31,7 +31,7 @@ function writeTitle() {
     $(function(){
     $(".typeTitle").typed({
       strings: ["Software Engineer / Web Developer"],
-      typeSpeed: 12,
+      typeSpeed: 10,
       showCursor: true,
       cursorChar: "|",
       callback: removeCursor
@@ -47,5 +47,47 @@ function removeCursor() {
     }).fadeOut();
 
   },100);
-  $('.brief').fadeIn();
+  showBrief().then(firstPop).then(secondPop).then(thirdPop).then(showButton).then(clearMenu);
+  
+}
+
+function showBrief() {
+  return new Promise(function(resolve, reject) {
+    $('.brief').addClass('animated fadeInUp');
+    resolve('done');
+  })
+  
+}
+
+function firstPop() {
+  
+  setTimeout(function(){
+    $('.menu-icon').addClass('animated fadeInUp');
+    $('.firstPop').addClass('animated fadeInUp');
+  }, 200)
+}
+
+function secondPop() {
+  setTimeout(function(){
+    $('.secondPop').addClass('animated fadeInUp');
+  }, 500)
+}
+
+function thirdPop() {
+  setTimeout(function(){
+    $('.thirdPop').addClass('animated fadeInUp');
+  }, 700)
+}
+
+function showButton() {
+  setTimeout(function(){
+    $('.hero-btn').fadeIn(1000);
+  }, 1000)
+}
+
+function clearMenu() {
+  setTimeout(function(){
+    $('.menu-icon').css('opacity','1');
+    $('.menu-icon').removeClass('animated fadeInUp');
+  }, 1200)
 }
