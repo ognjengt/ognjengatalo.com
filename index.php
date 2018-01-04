@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Ognjen Gatalo</title>
+
     <link rel='shortcut icon' type='image/x-icon' href='img/favicon.ico' />
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
@@ -14,6 +14,36 @@
     <link rel="stylesheet" href="css/ionicons.min.css" media="screen" title="no title">
     <link rel="stylesheet" href="css/component.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <meta name="name" content="Ognjen Gatalo">
+    <meta name="description" content="Passionate and innovative software engineer, and web developer from Serbia. Specialized in Node.js, React, AngularJS, C#, .NET, MongoDB, and MySQL">
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="subject" content="Ognjen Gatalo | Personal portfolio">
+    <meta name="keywords" content="ognjen,gatalo,software,programmer,developer,engineer,javascript,react,angular,csharp,c#,.net,dotnet,node,backend,api,rest,AI,mongodb,mysql,hackernoon,express,serbia">
+    <meta name="url" content="http://ognjengatalo.com">
+
+    <meta property="og:url" content="http://ognjengatalo.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ognjen Gatalo">
+    <meta property="og:description" content="Passionate and innovative software engineer, and web developer from Serbia. Specialized in Node.js, React, AngularJS, C#, .NET, MongoDB, and MySQL">
+    <meta property="og:image" content="http://ognjengatalo.com/img/screen.png">
+    <meta property="og:site_name" content="Ognjen Gatalo">
+
+    <meta name="twitter:card" content="Ognjen Gatalo">
+    <meta name="twitter:site" content="@ognjengt">
+    <meta name="twitter:creator" content="@ognjengt">
+    <meta name="twitter:url" content="http://ognjengatalo.com">
+    <meta name="twitter:title" content="Ognjen Gatalo">
+    <meta name="twitter:description" content="Passionate and innovative software engineer, and web developer from Serbia. Specialized in Node.js, React, AngularJS, C#, .NET, MongoDB, and MySQL">
+    <meta name="twitter:image" content="http://ognjengatalo.com/img/screen.png">
+
+    <meta itemprop="name" content="Ognjen Gatalo">
+    <meta itemprop="description" content="Passionate and innovative software engineer, and web developer from Serbia. Specialized in Node.js, React, AngularJS, C#, .NET, MongoDB, and MySQL">
+    <meta itemprop="image" content="http://ognjengatalo.com/img/screen.png">
+
+    <title>Ognjen Gatalo</title>
+    
 
   </head>
   <body>
