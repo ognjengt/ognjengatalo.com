@@ -64,36 +64,36 @@ function firstPop() {
   setTimeout(function(){
     $('.menu-icon').addClass('animated fadeInUp');
     $('.firstPop').addClass('animated fadeInUp');
-  }, 200)
+  }, 300)
 }
 
 function secondPop() {
   setTimeout(function(){
     $('.secondPop').addClass('animated fadeInUp');
-  }, 500)
+  }, 600)
 }
 
 function thirdPop() {
   setTimeout(function(){
     $('.thirdPop').addClass('animated fadeInUp');
-  }, 700)
+  }, 800)
 }
 
 function fourthPop() {
   setTimeout(function(){
     $('.fourthPop').addClass('animated fadeInUp');
-  }, 900)
+  }, 1000)
 }
 
 function showButton() {
   setTimeout(function(){
     $('.hero-btn').fadeIn(1000);
-  }, 1200)
+  }, 1300)
 }
 
 function clearMenu() {
   setTimeout(function(){
     $('.menu-icon').css('opacity','1');
     $('.menu-icon').removeClass('animated fadeInUp');
-  }, 1400)
+  }, 1500)
 }
