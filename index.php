@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="css/ionicons.min.css" media="screen" title="no title">
     <link rel="stylesheet" href="css/component.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
   </head>
   <body>
@@ -28,7 +29,7 @@
                 <h1><span class="typeName"></span></h1>
                 <h3><b><span class="typeTitle"></span></b></h3>
                 <p class="brief">
-                  Passionate, dedicated and innovative software programmer and web developer from Serbia, with the goal of building scalable and maintainable cross platform and web applications, along with responsive websites. Co-founder of IT solutions company <b><a href="http://www.thenamespace.com" class="scaleLink" target="_blank">Namespace</a></b>. Striving to bring innovative ideas to life, that is why I'm always giving 101% on every project. Open for freelance work, so feel free to contact me.
+                  Passionate, dedicated and innovative software programmer and web developer from Serbia, who loves to build. Mostly interested in Back-end development, Software Architecture, Artificial Intelligence, and Algorithms. I also write articles on medium for a publication called <a href="https://hackernoon.com" target="_blank"><u>Hackernoon.</u></a> <br><br>Technologies I use are Node.js, React, AngularJS, C#, .NET, MongoDB, MySQL. Striving to bring innovative ideas to life, that is why I'm always giving 101% on every project. Open for freelance work, so feel free to contact me.
                 </p>
               </div>
             </div>
@@ -39,10 +40,11 @@
                   <a href="https://www.linkedin.com/in/ognjeng" target="_blank"><li class="hvr-sweep-to-right firstPop"><i class="ion-social-linkedin"></i><b></b></li></a>
                   <a href="https://twitter.com/ognjengt" target="_blank"><li class="hvr-sweep-to-right secondPop"><i class="ion-social-twitter"></i> <b></b></li></a>
                   <a href="https://github.com/ognjengt" target="_blank"><li class="hvr-sweep-to-right thirdPop"><i class="ion-social-github"></i> <b></b></li></a>
+                  <a href="https://medium.com/@ognjengt" target="_blank"><li class="hvr-sweep-to-right fourthPop"><i class="fa fa-medium" area-hidden="true"></i> <b></b></li></a>
                 </ul>
                 <a href="#">
                   <button class="hero-btn hvr-sweep-to-top">
-                    <b>Dive in</b>
+                    <b>Contact me</b>
                   </button>
                 </a>
               </div>
@@ -59,7 +61,7 @@
           </div>
         </div>
       </section>
-      <section>
+      <!-- <section>
         <div class="frameHolder">
           <div class="frame" id="frame2">
 
@@ -77,7 +79,7 @@
 
           </div>
         </div>
-      </section>
+      </section> -->
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

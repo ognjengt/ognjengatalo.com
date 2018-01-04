@@ -47,7 +47,7 @@ function removeCursor() {
     }).fadeOut();
 
   },100);
-  showBrief().then(firstPop).then(secondPop).then(thirdPop).then(showButton).then(clearMenu);
+  showBrief().then(firstPop).then(secondPop).then(thirdPop).then(fourthPop).then(showButton).then(clearMenu);
   
 }
 
@@ -79,15 +79,21 @@ function thirdPop() {
   }, 700)
 }
 
+function fourthPop() {
+  setTimeout(function(){
+    $('.fourthPop').addClass('animated fadeInUp');
+  }, 900)
+}
+
 function showButton() {
   setTimeout(function(){
     $('.hero-btn').fadeIn(1000);
-  }, 1000)
+  }, 1200)
 }
 
 function clearMenu() {
   setTimeout(function(){
     $('.menu-icon').css('opacity','1');
     $('.menu-icon').removeClass('animated fadeInUp');
-  }, 1200)
+  }, 1400)
 }
