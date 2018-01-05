@@ -5,9 +5,9 @@ $(document).ready(function(){
 
   writeName();
 
-  $('.hero-btn').on('click', function() {
-    $('.main').moveDown();
-  })
+  // $('.hero-btn').on('click', function() {
+  //   $('.main').moveDown();
+  // })
 
 })
 
