@@ -1,4 +1,4 @@
 # ognjengatalo.com
 Personal website
 
-In development...
+http://www.ognjengatalo.com/
