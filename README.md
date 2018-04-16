@@ -1,4 +1,4 @@
 # ognjengatalo.com
 Personal website
 
-http://www.ognjengatalo.com/
+https://www.ognjengatalo.com/
